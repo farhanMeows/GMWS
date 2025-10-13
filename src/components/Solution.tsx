@@ -47,7 +47,7 @@ const Solution: React.FC = () => {
         {/* Header */}
         <div className="text-center mb-12 sm:mb-20">
           <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-3 sm:mb-4 tracking-tight">
-            The Solution: GreenShift Manipur
+            The Solution: Green Money
           </h2>
           <p className="text-xl sm:text-2xl md:text-3xl font-semibold opacity-95">
             Clean Homes. Clean Streets. Green Manipur.

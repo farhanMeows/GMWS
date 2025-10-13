@@ -44,7 +44,7 @@ const Navbar: React.FC = () => {
               alt="Green Mani Logo"
               className="w-12 h-12 sm:w-14 sm:h-14 object-contain transform group-hover:scale-110 transition-transform duration-300"
             />
-            <div className="hidden sm:block">
+            <div className="block">
               <span className="text-xl sm:text-2xl font-bold text-gray-900 tracking-tight">
                 Green Mani
               </span>
@@ -54,7 +54,13 @@ const Navbar: React.FC = () => {
 
           {/* Desktop Nav */}
           <div className="hidden lg:flex space-x-1">
-            {["About", "Solution", "Plans", "Contact"].map((item) => (
+            {[
+              "About",
+              "Solution",
+              "Plans",
+              "Our Core Activities",
+              "Contact",
+            ].map((item) => (
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
@@ -115,16 +121,18 @@ const Navbar: React.FC = () => {
 
         {/* Drawer Links */}
         <div className="flex flex-col bg-white space-y-3 p-6 overflow-y-auto h-[calc(100vh-80px)]">
-          {["About", "Solution", "Plans", "Contact"].map((item) => (
-            <a
-              key={item}
-              href={`#${item.toLowerCase()}`}
-              onClick={() => setMenuOpen(false)}
-              className="block text-gray-800 hover:text-green-600 font-semibold text-lg py-3 px-4 rounded-lg hover:bg-green-100 transition-all duration-200"
-            >
-              {item}
-            </a>
-          ))}
+          {["About", "Solution", "Plans", "Our Core Activities", "Contact"].map(
+            (item) => (
+              <a
+                key={item}
+                href={`#${item.toLowerCase()}`}
+                onClick={() => setMenuOpen(false)}
+                className="block text-gray-800 hover:text-green-600 font-semibold text-lg py-3 px-4 rounded-lg hover:bg-green-100 transition-all duration-200"
+              >
+                {item}
+              </a>
+            )
+          )}
         </div>
       </div>
     </nav>

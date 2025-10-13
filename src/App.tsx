@@ -31,6 +31,7 @@ import Solution from "./components/Solution";
 import Plans from "./components/Plans";
 import Impact from "./components/Impact";
 import Contact from "./components/Contact";
+import CoreActivities from "./components/CoreActivities";
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -91,6 +92,8 @@ function App() {
 
       {/* Subscription Plans */}
       <Plans />
+
+      <CoreActivities />
 
       {/* Impact */}
       <Impact />

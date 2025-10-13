@@ -51,7 +51,7 @@ const Contact: React.FC = () => {
             </h3>
             <div className="space-y-4 sm:space-y-6">
               <a
-                href="http://www.gmws.in"
+                href="http://www.greenmaniwastesolutions.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center space-x-3 sm:space-x-4 p-3 sm:p-4 rounded-xl hover:bg-white/5 transition-all duration-300"
@@ -59,20 +59,20 @@ const Contact: React.FC = () => {
                 <div className="w-10 h-10 sm:w-12 sm:h-12 bg-green-500/20 rounded-xl flex items-center justify-center group-hover:bg-green-500/30 transition-colors flex-shrink-0">
                   <Globe className="w-5 h-5 sm:w-6 sm:h-6 text-green-400" />
                 </div>
-                <span className="text-base sm:text-xl hover:text-green-400 transition-colors break-all">
-                  www.gmws.in
+                <span className="text-[12px]  sm:text-xl hover:text-green-400 transition-colors break-all">
+                  greenmaniwastesolutions.com
                 </span>
               </a>
 
               <a
-                href="mailto:support@gmws.in"
+                href="mailto:support@greenmaniwastesolutions.com"
                 className="group flex items-center space-x-3 sm:space-x-4 p-3 sm:p-4 rounded-xl hover:bg-white/5 transition-all duration-300"
               >
                 <div className="w-10 h-10 sm:w-12 sm:h-12 bg-green-500/20 rounded-xl flex items-center justify-center group-hover:bg-green-500/30 transition-colors flex-shrink-0">
                   <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-green-400" />
                 </div>
-                <span className="text-base sm:text-xl hover:text-green-400 transition-colors break-all">
-                  support@gmws.in
+                <span className="text-[12px] sm:text-xl hover:text-green-400 transition-colors break-all">
+                  support@greenmaniwastesolutions.com
                 </span>
               </a>
             </div>
@@ -85,14 +85,14 @@ const Contact: React.FC = () => {
             </h3>
             <div className="space-y-4 sm:space-y-6">
               <a
-                href="mailto:contact@gmws.in"
+                href="mailto:support@greenmaniwastesolutions.com"
                 className="group flex items-center space-x-3 sm:space-x-4 p-3 sm:p-4 rounded-xl hover:bg-white/5 transition-all duration-300"
               >
                 <div className="w-10 h-10 sm:w-12 sm:h-12 bg-blue-500/20 rounded-xl flex items-center justify-center group-hover:bg-blue-500/30 transition-colors flex-shrink-0">
                   <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-blue-400" />
                 </div>
-                <span className="text-base sm:text-xl hover:text-blue-400 transition-colors break-all">
-                  contact@gmws.in
+                <span className="text-[12px]  sm:text-xl hover:text-blue-400 transition-colors break-all">
+                  support@greenmaniwastesolutions.com
                 </span>
               </a>
 
@@ -100,9 +100,9 @@ const Contact: React.FC = () => {
                 <div className="w-10 h-10 sm:w-12 sm:h-12 bg-blue-500/20 rounded-xl flex items-center justify-center flex-shrink-0">
                   <MapPin className="w-5 h-5 sm:w-6 sm:h-6 text-blue-400" />
                 </div>
-                <span className="text-base sm:text-xl text-gray-300">
-                  C/o. Syed Ashad Ali, Kshetri Mayai Leikai, Porompat
-                  Sub-division, Imphal East, Manipur, 795005
+                <span className="text-[12px]  sm:text-xl text-gray-300">
+                  Kshetri Bengoon Awang Leikai, near Uyokching kabaristan,
+                  Kshetrigao,Imphal East, Manipur-795005
                 </span>
               </div>
             </div>
@@ -128,11 +128,18 @@ const Contact: React.FC = () => {
               );
             })}
           </div>
+        </div>
+        {/* Footer Text */}
+        <div className="text-center space-y-2">
+          <p className="text-gray-400 text-sm sm:text-base md:text-lg px-4">
+            © 2025 Green Mani Waste Solutions Pvt. Ltd. Technology for a
+            Circular Tomorrow.
+          </p>
 
-          {/* Footer Text */}
-          <p className="text-center text-gray-400 text-sm sm:text-base md:text-lg px-4">
-            © 2025 Greenmani Waste Solutions Pvt. Ltd. Technology for a Circular
-            Tomorrow.
+          {/* ❤️ Tagline */}
+          <p className="text-gray-500 text-xs sm:text-sm italic tracking-wide">
+            Built with <span className="text-red-500">❤</span> for the people of
+            Manipur.
           </p>
         </div>
       </div>

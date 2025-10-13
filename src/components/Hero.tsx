@@ -36,11 +36,10 @@ const Hero: React.FC = () => {
 
           {/* Title */}
           <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold text-gray-900 mb-4 sm:mb-6 leading-tight tracking-tight">
-            GreenShift
             <span className="bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">
-              {" "}
-              Manipur
-            </span>
+              Green Mani
+            </span>{" "}
+            Waste Solutions
           </h1>
 
           {/* Subtitle */}

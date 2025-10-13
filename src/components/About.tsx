@@ -32,10 +32,10 @@ const About: React.FC = () => {
           {/* Description */}
           <div className="max-w-4xl mx-auto text-left sm:text-center space-y-6 text-gray-600 text-base sm:text-lg md:text-xl leading-relaxed">
             <p>
-              <span className="font-semibold text-gray-900">
+              {/* <span className="font-semibold text-gray-900">
                 GreenShift Manipur,
               </span>{" "}
-              powered by{" "}
+              powered by{" "} */}
               <span className="text-green-700 font-semibold">
                 Green Mani Waste Solutions Pvt. Ltd.
               </span>
