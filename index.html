@@ -2,17 +2,73 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- ✅ Set your favicon -->
-    <link rel="icon" type="image/jpeg" href="logo.jpg" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ✅ Favicon setup for browsers, Google Search, and devices -->
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#0a0a0a" />
+
+    <!-- ✅ SEO Meta -->
     <meta
       name="description"
       content="GMWS — Green Mani Waste Solutions. A sustainable, tech-driven waste management company transforming Manipur’s urban waste into valuable resources."
     />
+    <meta
+      name="keywords"
+      content="GMWS, Green Mani Waste Solutions, waste management, recycling, sustainability, Manipur, eco-friendly, environment, waste to resource"
+    />
+    <meta name="author" content="Green Mani Waste Solutions" />
 
+    <!-- ✅ Open Graph (for Facebook, LinkedIn, etc.) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="GMWS — Green Mani Waste Solutions" />
+    <meta
+      property="og:description"
+      content="A sustainable, tech-driven waste management company transforming Manipur’s urban waste into valuable resources."
+    />
+    <meta
+      property="og:image"
+      content="https://greenmaniwastesolutions.com/android-chrome-512x512.png"
+    />
+    <meta property="og:url" content="https://greenmaniwastesolutions.com" />
+
+    <!-- ✅ Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="GMWS — Green Mani Waste Solutions" />
+    <meta
+      name="twitter:description"
+      content="A sustainable, tech-driven waste management company transforming Manipur’s urban waste into valuable resources."
+    />
+    <meta
+      name="twitter:image"
+      content="https://greenmaniwastesolutions.com/android-chrome-512x512.png"
+    />
+
+    <!-- ✅ Brand Structured Data (helps Google show your logo in results) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Green Mani Waste Solutions",
+        "url": "https://greenmaniwastesolutions.com",
+        "logo": "https://greenmaniwastesolutions.com/android-chrome-512x512.png",
+        "sameAs": [
+          "https://www.facebook.com/",
+          "https://www.linkedin.com/",
+          "https://www.instagram.com/"
+        ]
+      }
+    </script>
+
+    <!-- ✅ Page title -->
     <title>GMWS — Green Mani Waste Solutions</title>
     <meta name="apple-mobile-web-app-title" content="GMWS" />
+
+    <!-- Responsive scaling -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
   <body>
